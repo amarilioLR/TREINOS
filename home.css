@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background-color: rgb(225, 20, 20);
+    color: rgb(225, 220, 245);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu {
+    width: 500px;
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    font-family: Arial;
+    font-size: 20px;
+}
